@@ -25,3 +25,14 @@ Solution 4:
 
 Solution 5:
 [create a new docker group and add the user to the docker group](https://github.com/rhtconsulting/rhc-ose/blob/7afca118f1f883200d5867bfc11785d1dcba1440/docker/openstack-client-rhel/README.md)
+
+solution 6:
+[add USER in docker file](https://stackoverflow.com/questions/62988075/what-is-a-clean-way-to-add-a-user-in-docker-with-sudo-priviledges)
+
+Solution 7:
+[RUN chmod", "+x", "/usr/src/app/docker-entrypoint.sh](https://stackoverflow.com/questions/38882654/docker-entrypoint-running-bash-script-gets-permission-denied/38882798)
+
+Solution 8:
+```
+chmod +x docker-entrypoint.sh
+```bash
