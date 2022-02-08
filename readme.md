@@ -36,3 +36,6 @@ Solution 8:
 ```
 chmod +x docker-entrypoint.sh
 ```bash
+
+Solution 9:
+[add -u 0 to docker ](https://www.youtube.com/watch?v=lCkc2flJbpk)
